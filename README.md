@@ -75,10 +75,11 @@ AP.CX font pages are designed for rich specimens and buying context. This reposi
 - stable GitHub links for teams that prefer to review assets in source control;
 - a clear separation between public trial files and full commercial packages.
 
-For production, commercial, client, embedded, or redistributed use, follow the terms on [AP.CX](https://ap.cx) and the [AP.CX font license](https://ap.cx/font-license). Full paid commercial packages are not included in this repository.
+For production, commercial, client, embedded, or redistributed use, follow the terms on [AP.CX](https://ap.cx) and the [AP.CX font license](https://ap.cx/font-license). This repository also includes a local [trial font license notice](LICENSE.md) so the usage boundary is clear even before the public license route is live on the deployed site. Full paid commercial packages are not included in this repository.
 
 ## Links
 
 - Website: [ap.cx](https://ap.cx)
 - Font license: [ap.cx/font-license](https://ap.cx/font-license)
+- Local license notice: [LICENSE.md](LICENSE.md)
 - Intended SquareBot Sans source repository: [github.com/thierryc/squarebot-sans](https://github.com/thierryc/squarebot-sans)

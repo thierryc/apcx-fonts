@@ -1,0 +1,37 @@
+{
+  "name": "AP.CX Fonts",
+  "repository": "https://github.com/thierryc/apcx-fonts",
+  "website": "https://ap.cx",
+  "licenseUrl": "https://ap.cx/font-license",
+  "squarebotSourceRepository": "https://github.com/thierryc/squarebot-sans",
+  "fonts": [
+    {
+      "slug": "normale",
+      "family": "Normale Trial",
+      "version": "1.000",
+      "package": "packages/normale/normale-1.000-trial.zip",
+      "folder": "fonts/normale"
+    },
+    {
+      "slug": "normale-stencil",
+      "family": "Normale Stencil Trial",
+      "version": "1.000",
+      "package": "packages/normale-stencil/normale-stencil-1.000-trial.zip",
+      "folder": "fonts/normale-stencil"
+    },
+    {
+      "slug": "bidiblob",
+      "family": "Bidiblob Trial",
+      "version": "1.000",
+      "package": "packages/bidiblob/bidiblob-1.000-trial.zip",
+      "folder": "fonts/bidiblob"
+    },
+    {
+      "slug": "bidibulle",
+      "family": "Bidibulle Trial",
+      "version": "1.000",
+      "package": "packages/bidibulle/bidibulle-1.000-trial.zip",
+      "folder": "fonts/bidibulle"
+    }
+  ]
+}

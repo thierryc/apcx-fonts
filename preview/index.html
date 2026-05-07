@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AP.CX Trial Fonts Preview</title>
+    <style>
+      @font-face {
+        font-family: "Normale Trial";
+        src: url("../fonts/normale/NormaleTrial-fvVF.woff2") format("woff2");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: block;
+      }
+
+      @font-face {
+        font-family: "Normale Stencil Trial";
+        src: url("../fonts/normale-stencil/Normale-stencilTrial-fvVF.woff2") format("woff2");
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: block;
+      }
+
+      @font-face {
+        font-family: "Bidiblob Trial";
+        src: url("../fonts/bidiblob/BidiblobTrial-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+      }
+
+      @font-face {
+        font-family: "Bidibulle Trial";
+        src: url("../fonts/bidibulle/BidibulleTrial-Regular.woff2") format("woff2");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+      }
+
+      :root {
+        color-scheme: light;
+        --ink: #171717;
+        --muted: #57524a;
+        --paper: #f7f4ec;
+        --line: #d9d2c4;
+        --accent: #ef4c2f;
+        --cool: #1f7269;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      main {
+        width: min(1280px, calc(100vw - 56px));
+        margin: 0 auto;
+        padding: 48px 0;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 32px;
+        align-items: start;
+        border-bottom: 1px solid var(--line);
+        padding-bottom: 28px;
+      }
+
+      h1 {
+        margin: 0;
+        font-family: "Normale Trial", ui-sans-serif, system-ui, sans-serif;
+        font-size: 86px;
+        font-weight: 760;
+        line-height: 0.92;
+        letter-spacing: 0;
+      }
+
+      .meta {
+        margin: 0;
+        max-width: 330px;
+        color: var(--muted);
+        font-size: 18px;
+        line-height: 1.45;
+      }
+
+      .specimens {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        padding-top: 28px;
+      }
+
+      .sample {
+        min-height: 238px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 24px;
+        background: rgba(255, 255, 255, 0.42);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .sample-label {
+        margin: 0;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .sample-text {
+        margin: 22px 0 0;
+        font-size: 52px;
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .normale .sample-text {
+        font-family: "Normale Trial", ui-sans-serif, system-ui, sans-serif;
+        font-weight: 620;
+      }
+
+      .stencil .sample-text {
+        color: var(--accent);
+        font-family: "Normale Stencil Trial", ui-sans-serif, system-ui, sans-serif;
+        font-weight: 680;
+      }
+
+      .bidiblob .sample-text {
+        color: var(--cool);
+        font-family: "Bidiblob Trial", ui-sans-serif, system-ui, sans-serif;
+      }
+
+      .bidibulle .sample-text {
+        font-family: "Bidibulle Trial", ui-sans-serif, system-ui, sans-serif;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 24px;
+        border-top: 1px solid var(--line);
+        margin-top: 28px;
+        padding-top: 22px;
+        color: var(--muted);
+        font-size: 15px;
+      }
+
+      @media (max-width: 760px) {
+        main {
+          width: min(100% - 32px, 680px);
+          padding: 28px 0;
+        }
+
+        header,
+        .specimens {
+          grid-template-columns: 1fr;
+        }
+
+        h1 {
+          font-size: 52px;
+        }
+
+        .sample-text {
+          font-size: 40px;
+        }
+
+        .footer {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>AP.CX<br />Trial Fonts</h1>
+        <p class="meta">
+          Public evaluation builds for typography tests, interface prototypes, and layout reviews.
+        </p>
+      </header>
+
+      <section class="specimens" aria-label="Font specimens">
+        <article class="sample normale">
+          <p class="sample-label">Normale Trial</p>
+          <p class="sample-text">Sharp gallery text, posters, and bilingual systems.</p>
+        </article>
+        <article class="sample stencil">
+          <p class="sample-label">Normale Stencil Trial</p>
+          <p class="sample-text">Labels, signage, and high contrast display.</p>
+        </article>
+        <article class="sample bidiblob">
+          <p class="sample-label">Bidiblob Trial</p>
+          <p class="sample-text">Dense dotted headlines for swollen graphic texture.</p>
+        </article>
+        <article class="sample bidibulle">
+          <p class="sample-label">Bidibulle Trial</p>
+          <p class="sample-text">Buoyant bubble display for playful campaigns.</p>
+        </article>
+      </section>
+
+      <div class="footer">
+        <span>ap.cx/fonts</span>
+        <span>Trial files for evaluation only</span>
+      </div>
+    </main>
+    <script>
+      document.fonts.ready.then(function () {
+        document.documentElement.classList.add("fonts-ready");
+      });
+    </script>
+  </body>
+</html>

@@ -15,7 +15,7 @@ This repository exists to make AP.CX trial fonts easy to inspect, install, and t
 | Bidiblob Trial | `fonts/bidiblob/` | `packages/bidiblob/bidiblob-1.000-trial.zip` |
 | Bidibulle Trial | `fonts/bidibulle/` | `packages/bidibulle/bidibulle-1.000-trial.zip` |
 
-SquareBot Sans is a separate free/open-source font. Its intended future source repository is [thierryc/squarebot-sans](https://github.com/thierryc/squarebot-sans). That repository is not created as part of this package.
+SquareBot Sans is a separate free/open-source font. Its source repository is [thierryc/SquareBotSans](https://github.com/thierryc/SquareBotSans). That repository is separate from this trial font package.
 
 ## Repository Layout
 
@@ -82,4 +82,4 @@ For production, commercial, client, embedded, or redistributed use, follow the t
 - Website: [ap.cx](https://ap.cx)
 - Font license: [ap.cx/font-license](https://ap.cx/font-license)
 - Local license notice: [LICENSE.md](LICENSE.md)
-- Intended SquareBot Sans source repository: [github.com/thierryc/squarebot-sans](https://github.com/thierryc/squarebot-sans)
+- SquareBot Sans source repository: [github.com/thierryc/SquareBotSans](https://github.com/thierryc/SquareBotSans)

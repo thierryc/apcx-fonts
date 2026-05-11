@@ -3,7 +3,7 @@
   "repository": "https://github.com/thierryc/apcx-fonts",
   "website": "https://ap.cx",
   "licenseUrl": "https://ap.cx/font-license",
-  "squarebotSourceRepository": "https://github.com/thierryc/squarebot-sans",
+  "squarebotSourceRepository": "https://github.com/thierryc/SquareBotSans",
   "fonts": [
     {
       "slug": "normale",

@@ -14,7 +14,7 @@
     },
     {
       "slug": "normale-stencil",
-      "family": "Normale Stencil Trial",
+      "family": "Normale-stencil Trial",
       "version": "1.000",
       "package": "packages/normale-stencil/normale-stencil-1.000-trial.zip",
       "folder": "fonts/normale-stencil"
